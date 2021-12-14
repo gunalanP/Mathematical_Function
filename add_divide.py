@@ -11,4 +11,4 @@ def add(x,y):
     return added_value
 
 calc=add(user_input_Value_1,user_input_value_2)
-print('First Value:',user_input_Value_1,'Second Value',user_input_value_2,'Addition Value:',calc)
+print('\nFirst Value:',user_input_Value_1,'\nSecond Value',user_input_value_2,'\nAddition Value:',calc)
