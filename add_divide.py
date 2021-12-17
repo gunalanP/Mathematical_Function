@@ -15,8 +15,7 @@ def multiply(x,y):
 def divide(x,y):
     divis = x/y
     modlus=x%y
-    print(modlus)
-    return divis
+    print(divis,modlus)
 def subtract(x,y):
     subt = x-y
     return subt
@@ -25,13 +24,13 @@ def subtract(x,y):
 
 
 calc_add=add(user_input_Value_1,user_input_value_2)
-print('\nFirst Value:',user_input_Value_1,'\nSecond Value',user_input_value_2,'\nAddition Value:',calc_add)
+print('\nAddition Value:',calc_add)
 
 calc_multi= multiply(user_input_Value_1,user_input_value_2)
-print('\nFirst Value:',user_input_Value_1,'\nSecond Value',user_input_value_2,'\nMultiplied Value:',calc_multi)
+print('\nMultiplied Value:',calc_multi)
 
 calc_divi= divide(user_input_Value_1,user_input_value_2)
-print('\nFirst Value:',user_input_Value_1,'\nSecond Value',user_input_value_2,'\nDivided Value:',calc_divi)
+print('\nDivided Value:',calc_divi)
 
 calc_subt= subtract(user_input_Value_1,user_input_value_2)
-print('\nFirst Value:',user_input_Value_1,'\nSecond Value',user_input_value_2,'\nSubtracted Value:',calc_subt)
+print('\nSubtracted Value:',calc_subt)
