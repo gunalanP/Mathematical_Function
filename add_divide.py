@@ -34,3 +34,6 @@ print('\nDivided Value:',calc_divi)
 
 calc_subt= subtract(user_input_Value_1,user_input_value_2)
 print('\nSubtracted Value:',calc_subt)
+
+
+input('\n\n Press Enter to exit')
