@@ -13,9 +13,9 @@ def multiply(x,y):
     multi = x*y
     return multi
 def divide(x,y):
-    divis = x/y
-    modlus=x%y
-    print(divis,modlus)
+    divis = x//y
+    modlus = x%y
+    return divis , modlus
 def subtract(x,y):
     subt = x-y
     return subt
